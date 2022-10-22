@@ -27,6 +27,7 @@ jobs:
         with:
           # number of milliseconds to wait
           milliseconds: 30000 # default is 1000
+      - id: step4
         run: |
           echo ${{steps.step3.outputs.time}}
           echo "hi=hello" >> $GITHUB_OUTPUT
