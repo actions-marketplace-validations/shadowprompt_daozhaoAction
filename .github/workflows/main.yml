@@ -9,7 +9,7 @@ jobs:
   job1:
     runs-on: ubuntu-latest
     outputs:
-      output1: ${{ steps.step3.outputs.hi }}
+      output1: ${{ steps.step4.outputs.hi }}
     steps:
       - id: step1
         uses: actions/checkout@v2
